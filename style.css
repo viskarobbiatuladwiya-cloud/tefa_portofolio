@@ -1,0 +1,114 @@
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px; /* atur besar nama */
+  font-weight: 800; /* lebih tebal */
+  letter-spacing: 3px; /* jarak antar huruf */
+  background: linear-gradient(90deg, #800000, #e9afaf); /* gradient warna */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #444;
+  text-transform: uppercase;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero p {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-style: italic;
+  color: #555;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Animasi */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Text PORTFOLIO kiri */
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  margin: 0;
+  position: absolute;
+}
+
+/* Bayangan lebih muda */
+.shadow-text {
+  color: #f5bcbc; /* pink muda */
+  z-index: 1;
+  transform: rotate(180deg) translateX(-15px);
+}
+
+/* Teks utama dengan gradient */
+.main-text {
+  background: linear-gradient(90deg, #800000, #e9afaf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  z-index: 2;
+}
+
+.photo-frame {
+  border: 4px solid rgb(104, 16, 16);
+  padding: 20px;
+  display: inline-block;
+  height: 100%; /* frame ikut tinggi parent */
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 80vh; /* tinggi 80% layar */
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.profile-img {
+  width: 250px; /* pastikan lebar sama dengan tinggi */
+  height: 300px; /* bikin kotak */
+  border-radius: 50%; /* bulat */
+  object-fit: cover; /* biar gambar tetap proporsional */
+  box-shadow: 0 0 25px rgba(163, 11, 11, 0.7); /* efek cahaya glow */
+  padding: 5px;
+  background: #fff;
+}

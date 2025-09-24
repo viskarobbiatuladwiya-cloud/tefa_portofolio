@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background: rgba(156, 37, 17, 255)"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill & Edukasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      class="container-fluid hero d-flex align-items-center justify-content-center"
+      style="min-height: 100vh"
+    >
+      <div class="row w-100">
+        <!-- Text Portfolio Kiri -->
+        <div
+          class="col-md-2 d-flex align-items-center justify-content-center position-relative"
+        >
+          <!-- Bayangan -->
+          <h3 class="vertical-text shadow-text">PORTFOLIO</h3>
+          <!-- Teks Utama -->
+          <h3 class="vertical-text main-text">PORTFOLIO</h3>
+        </div>
+
+        <!-- Foto Tengah -->
+        <div class="col-md-5 text-center">
+          <div class="photo-frame">
+            <img
+              src="gambar/piskaaa1.png"
+              alt="Profile Picture"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <!-- Teks Kanan -->
+        <div class="col-md-5 d-flex flex-column justify-content-center">
+          <h2>HI, I'M</h2>
+          <h1 class="fw-bold text-danger">VISKA ROBBIATUL ADWIYA</h1>
+          <p><em>Public Speaking & Personal Portfolio</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container profile pt-4" id="about">
+      <div class="container text-center">
+        <h1
+          style="color: rgb(174, 50, 50)"
+          data-aos="fade-left"
+          data-aos-delay="500"
+        >
+          About <span style="color: rgb(236, 118, 137)">Me</span>
+        </h1>
+        <p style="color: rgb(230, 193, 193)" data-aos="fade-right">
+          Transforming ideas into digital experiences
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="fade-down-right" data-aos-delay="800">
+            <div
+              class="card"
+              style="
+                width: 18rem;
+                border: none;
+                background: transparent;
+                text-align: center;
+              "
+            >
+              <img
+                src="gambar/piskuy-removebg-preview.png"
+                class="profile-img"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-down-left" data-aos-delay="500">
+            <h5 style="color: rgb(249, 173, 173)">Viska Robbiatul Adwiya</h5>
+            <p style="color: rgb(7, 37, 64)">
+              Saya adalah seorang pelajar dengan minat di bidang public speaking
+              dan komunikasi. Saya memiliki pengalaman sebagai MC dalam kegiatan
+              organisasi, dipercaya menjadi ketua kelompok Project Based
+              Learning, serta mempresentasikan project PKL di depan pembimbing.
+              Dari pengalaman tersebut, saya terbiasa melatih kepercayaan diri,
+              kepemimpinan, dan kerja sama tim. Saya juga senang belajar hal
+              baru untuk terus mengembangkan diri.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wave SVG -->
+    <svg
+      id="wave"
+      style="transform: rotate(0deg); transition: 0.3s"
+      viewBox="0 0 1440 230"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop
+            stop-color="rgba(216.176, 114.395, 114.395, 1)"
+            offset="0%"
+          ></stop>
+          <stop stop-color="rgba(93.23, 23.54, 23.54, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 0px); opacity: 1"
+        fill="url(#sw-gradient-0)"
+        d="M0,23L18.5,19.2C36.9,15,74,8,111,26.8C147.7,46,185,92,222,126.5C258.5,161,295,184,332,191.7C369.2,199,406,192,443,184C480,176,517,169,554,141.8C590.8,115,628,69,665,61.3C701.5,54,738,84,775,99.7C812.3,115,849,115,886,107.3C923.1,100,960,84,997,84.3C1033.8,84,1071,100,1108,95.8C1144.6,92,1182,69,1218,69C1255.4,69,1292,92,1329,84.3C1366.2,77,1403,38,1440,38.3C1476.9,38,1514,77,1551,76.7C1587.7,77,1625,38,1662,42.2C1698.5,46,1735,92,1772,107.3C1809.2,123,1846,107,1883,88.2C1920,69,1957,46,1994,61.3C2030.8,77,2068,130,2105,130.3C2141.5,130,2178,77,2215,65.2C2252.3,54,2289,84,2326,84.3C2363.1,84,2400,54,2437,38.3C2473.8,23,2511,23,2548,46C2584.6,69,2622,115,2640,138L2658.5,161L2658.5,230L2640,230C2621.5,230,2585,230,2548,230C2510.8,230,2474,230,2437,230C2400,230,2363,230,2326,230C2289.2,230,2252,230,2215,230C2178.5,230,2142,230,2105,230C2067.7,230,2031,230,1994,230C1956.9,230,1920,230,1883,230C1846.2,230,1809,230,1772,230C1735.4,230,1698,230,1662,230C1624.6,230,1588,230,1551,230C1513.8,230,1477,230,1440,230C1403.1,230,1366,230,1329,230C1292.3,230,1255,230,1218,230C1181.5,230,1145,230,1108,230C1070.8,230,1034,230,997,230C960,230,923,230,886,230C849.2,230,812,230,775,230C738.5,230,702,230,665,230C627.7,230,591,230,554,230C516.9,230,480,230,443,230C406.2,230,369,230,332,230C295.4,230,258,230,222,230C184.6,230,148,230,111,230C73.8,230,37,230,18,230L0,230Z"
+      ></path>
+      <defs>
+        <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+          <stop
+            stop-color="rgba(202.515, 110.596, 110.596, 1)"
+            offset="0%"
+          ></stop>
+          <stop stop-color="rgba(255, 0, 0, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 50px); opacity: 0.9"
+        fill="url(#sw-gradient-1)"
+        d="M0,92L18.5,84.3C36.9,77,74,61,111,57.5C147.7,54,185,61,222,84.3C258.5,107,295,146,332,149.5C369.2,153,406,123,443,115C480,107,517,123,554,122.7C590.8,123,628,107,665,103.5C701.5,100,738,107,775,126.5C812.3,146,849,176,886,157.2C923.1,138,960,69,997,34.5C1033.8,0,1071,0,1108,30.7C1144.6,61,1182,123,1218,153.3C1255.4,184,1292,184,1329,187.8C1366.2,192,1403,199,1440,176.3C1476.9,153,1514,100,1551,92C1587.7,84,1625,123,1662,138C1698.5,153,1735,146,1772,118.8C1809.2,92,1846,46,1883,46C1920,46,1957,92,1994,92C2030.8,92,2068,46,2105,34.5C2141.5,23,2178,46,2215,76.7C2252.3,107,2289,146,2326,149.5C2363.1,153,2400,123,2437,111.2C2473.8,100,2511,107,2548,103.5C2584.6,100,2622,84,2640,76.7L2658.5,69L2658.5,230L2640,230C2621.5,230,2585,230,2548,230C2510.8,230,2474,230,2437,230C2400,230,2363,230,2326,230C2289.2,230,2252,230,2215,230C2178.5,230,2142,230,2105,230C2067.7,230,2031,230,1994,230C1956.9,230,1920,230,1883,230C1846.2,230,1809,230,1772,230C1735.4,230,1698,230,1662,230C1624.6,230,1588,230,1551,230C1513.8,230,1477,230,1440,230C1403.1,230,1366,230,1329,230C1292.3,230,1255,230,1218,230C1181.5,230,1145,230,1108,230C1070.8,230,1034,230,997,230C960,230,923,230,886,230C849.2,230,812,230,775,230C738.5,230,702,230,665,230C627.7,230,591,230,554,230C516.9,230,480,230,443,230C406.2,230,369,230,332,230C295.4,230,258,230,222,230C184.6,230,148,230,111,230C73.8,230,37,230,18,230L0,230Z"
+      ></path>
+    </svg>
+
+    <!-- Skills Section -->
+    <section id="skill">
+      <div class="container-fluid">
+        <div class="container text-center">
+          <h3 class="display-5" data-aos="fade-right" data-aos-delay="800">
+            My <span style="color: crimson">Skills</span>
+          </h3>
+          <p data-aos="fade-left" data-aos-delay="1000">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="row text-center">
+            <!-- Skill 1: Public Speaking -->
+            <div class="col-md-2" data-aos="fade-right">
+              <i class="fa-solid fa-microphone fa-2x"></i>
+              <p>Public Speaking</p>
+            </div>
+            <!-- Skill 2: Design -->
+            <div class="col-md-2" data-aos="fade-up" data-aos-delay="200">
+              <i class="fa-solid fa-paintbrush fa-2x"></i>
+              <p>Design</p>
+            </div>
+            <!-- Skill 3: Coding -->
+            <div class="col-md-2" data-aos="fade-down" data-aos-delay="400">
+              <i class="fa-solid fa-code fa-2x"></i>
+              <p>Coding</p>
+            </div>
+            <!-- Skill 4: Leadership -->
+            <div class="col-md-2" data-aos="fade-left" data-aos-delay="600">
+              <i class="fa-solid fa-user-tie fa-2x"></i>
+              <p>Leadership</p>
+            </div>
+            <!-- Skill 5: Teamwork -->
+            <div class="col-md-2" data-aos="fade-up" data-aos-delay="800">
+              <i class="fa-solid fa-people-group fa-2x"></i>
+              <p>Teamwork</p>
+            </div>
+            <!-- Skill 6: Problem Solving -->
+            <div class="col-md-2" data-aos="fade-down" data-aos-delay="1000">
+              <i class="fa-solid fa-lightbulb fa-2x"></i>
+              <p>Problem Solving</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="project">
+      <div class="container-fluid pt-4">
+        <div class="container text-center">
+          <h1
+            style="color: rgb(232, 138, 138)"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            My <span style="color: rgb(163, 11, 11)">Project</span>
+          </h1>
+          <p
+            style="color: rgb(249, 183, 183)"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            This is my project
+          </p>
+
+          <div class="row pt-4 justify-content-center">
+            <!-- Project 1 -->
+            <div class="col-md-4 pt-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card border-danger" style="width: 18rem">
+                <img
+                  src="gambar/projec.png"
+                  class="card-img-top"
+                  alt="Project e-tools"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project e-tools</h5>
+                  <p class="card-text">Website Peminjaman Barang</p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4 pt-4" data-aos="fade-up" data-aos-delay="700">
+              <div class="card border-danger" style="width: 18rem">
+                <img
+                  src="gambar/projectpjbl.png"
+                  class="card-img-top"
+                  alt="Project TabunganCerdik"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project TabunganCerdik</h5>
+                  <p class="card-text">Website Pengelolaan Tabungan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools">
+      <div class="container-fluid pt-4">
+        <div class="container text-center">
+          <h1
+            style="color: rgb(232, 138, 138)"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            My <span style="color: rgb(187, 24, 24)">Tools</span>
+          </h1>
+          <p
+            style="color: rgb(203, 11, 11)"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            Tools & Software I Use
+          </p>
+
+          <div class="row pt-4 justify-content-center">
+            <!-- Tool 1: Microsoft Office -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-brands fa-windows fa-2x text-primary mb-3"></i>
+                  <h5 class="card-title">Microsoft Office</h5>
+                  <p class="card-text">
+                    Word, PowerPoint, Excel untuk kebutuhan presentasi dan
+                    dokumentasi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tool 2: Canva -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="500">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-brands fa-canva fa-2x text-info mb-3"></i>
+                  <h5 class="card-title">Canva</h5>
+                  <p class="card-text">
+                    Desain konten visual untuk poster, media sosial, dan
+                    presentasi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tool 3: VS Code -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="600">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-solid fa-code fa-2x text-success mb-3"></i>
+                  <h5 class="card-title">VS Code</h5>
+                  <p class="card-text">
+                    Code editor untuk pengembangan website dan aplikasi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="service">
+      <div class="container-fluid pt-4">
+        <div class="container text-center">
+          <h1
+            style="color: rgb(252, 126, 126)"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            My <span style="color: rgb(160, 17, 17)">Services</span>
+          </h1>
+          <p
+            style="color: rgb(249, 183, 183)"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            How can I help you?
+          </p>
+
+          <div class="row pt-4 justify-content-center">
+            <!-- Service 1: Public Speaking -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-solid fa-microphone fa-2x text-danger mb-3"></i>
+                  <h5 class="card-title">Public Speaking</h5>
+                  <p class="card-text">
+                    Menjadi MC, moderator, atau presenter dalam berbagai acara.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Service 2: Content Design -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-solid fa-pen-nib fa-2x text-danger mb-3"></i>
+                  <h5 class="card-title">Content Design</h5>
+                  <p class="card-text">
+                    Membuat desain sederhana untuk presentasi, poster, dan media
+                    digital.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Service 3: Website Service -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
+              <div class="card shadow-lg border-0">
+                <div class="card-body">
+                  <i class="fa-solid fa-globe fa-2x text-danger mb-3"></i>
+                  <h5 class="card-title">Website Service</h5>
+                  <p class="card-text">
+                    Membuat dan mengelola website sederhana untuk portofolio,
+                    bisnis, atau organisasi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificate">
+      <div class="container-fluid pt-4">
+        <div class="container text-center">
+          <h1
+            style="color: rgb(232, 138, 138)"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            My <span style="color: rgb(176, 15, 15)">Certificates</span>
+          </h1>
+
+          <div class="row pt-4 justify-content-center">
+            <!-- Certificate 1 -->
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card border-0 shadow-lg">
+                <img
+                  src="gambar/sertifikat.png"
+                  class="card-img-top"
+                  alt="Certificate Seminar 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Certificate Seminar</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+              <div class="card border-0 shadow-lg">
+                <img
+                  src="gambar/sertif.png"
+                  class="card-img-top"
+                  alt="Certificate Seminar 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Certificate Seminar</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="container pt-2">
+          <h3 class="display-5">
+            <span style="color: crimson">My</span> Contact
+          </h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+            sed!
+          </p>
+          <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Example textarea</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning">Kirim</button>
+            </div>
+            <!-- Google Maps -->
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.074226943415!2d106.99229990965907!3d-6.355455765924911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c22161d4051%3A0x7a0a35b288779341!2sSMKN%202%20Kota%20Bekasi!5e0!3m2!1sid!2sid!4v1758645913735!5m2!1sid!2sid"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="footer pt-1 text-center">
+        <div class="card">
+          <div class="card-header">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-youtube fa-2x"></i
+            ></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+            <a href="http://@kviskayz" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram fa-2x"></i
+            ></a>
+          </div>
+          <div class="card-body">
+            <!-- Copyright -->
+            <figure>
+              <blockquote class="blockquote">
+                <p>
+                  <span style="color: darkred">&copy; Pojok.com</span> |
+                  Melayani Kebutuhan Anda
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Est.
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
