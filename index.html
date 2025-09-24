@@ -473,95 +473,115 @@
             <span style="color: crimson">My</span> Contact
           </h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
-            sed!
+            Silakan hubungi saya melalui media sosial atau email di bawah ini.
           </p>
           <div class="row">
-            <!-- Contact Form -->
+            <!-- Info Kontak -->
             <div class="col-md-6">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Email address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Example textarea</label
-                >
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-warning">Kirim</button>
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">
+                  <i class="fa-brands fa-instagram text-danger me-2"></i>
+                  Instagram:
+                  <a href="https://instagram.com/kviskayz_" target="_blank"
+                    >@kviskayz_</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <i class="fa-brands fa-tiktok text-dark me-2"></i>
+                  TikTok:
+                  <a href="https://tiktok.com/@gottalove_ies" target="_blank"
+                    >@gottalove_ies</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <i class="fa-solid fa-envelope text-primary me-2"></i>
+                  Gmail:
+                  <a href="mailto:adwiyaviskaa@gmail.com"
+                    >adwiyaviskaa@gmail.com</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <i class="fa-solid fa-phone text-success me-2"></i>
+                  Telepon: <a href="tel:+62881024393033">+62 881-0243-93033</a>
+                </li>
+              </ul>
             </div>
+
             <!-- Google Maps -->
             <div class="col-md-6">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.074226943415!2d106.99229990965907!3d-6.355455765924911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c22161d4051%3A0x7a0a35b288779341!2sSMKN%202%20Kota%20Bekasi!5e0!3m2!1sid!2sid!4v1758645913735!5m2!1sid!2sid"
-                width="400"
-                height="300"
-                style="border: 0"
+                width="100%"
+                height="200"
+                style="border: 0; border-radius: 10px"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+              >
+              </iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Footer Section -->
-    <section id="footer">
-      <div class="footer pt-1 text-center">
-        <div class="card">
-          <div class="card-header">
-            <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><i class="fa-brands fa-youtube fa-2x"></i
-            ></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><i class="fa-brands fa-linkedin fa-2x"></i
-            ></a>
-            <a href="http://@kviskayz" target="_blank" rel="noopener noreferrer"
-              ><i class="fa-brands fa-instagram fa-2x"></i
-            ></a>
-          </div>
-          <div class="card-body">
-            <!-- Copyright -->
-            <figure>
-              <blockquote class="blockquote">
-                <p>
-                  <span style="color: darkred">&copy; Pojok.com</span> |
-                  Melayani Kebutuhan Anda
-                </p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                Est.
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-              </figcaption>
-            </figure>
-          </div>
+    <section id="footer" class="bg-dark text-white pt-4 pb-2">
+      <div class="container text-center">
+        <!-- Sosial Media -->
+        <div class="mb-3">
+          <a
+            href="https://youtube.com/"
+            target="_blank"
+            class="text-white mx-3 fs-4"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            class="text-white mx-3 fs-4"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://instagram.com/kviskayz"
+            target="_blank"
+            class="text-white mx-3 fs-4"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
+
+        <!-- Copyright -->
+        <p class="mb-0">
+          <span style="color: crimson">&copy; Pojok.com</span> | Melayani
+          Kebutuhan Anda
+        </p>
+        <small class="text-secondary">
+          Est.
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </small>
       </div>
     </section>
+
+    <!-- Extra CSS untuk hover -->
+    <style>
+      #footer a {
+        transition: color 0.3s, transform 0.3s;
+      }
+      #footer a:hover {
+        color: crimson !important;
+        transform: scale(1.2);
+      }
+    </style>
 
     <!-- Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
